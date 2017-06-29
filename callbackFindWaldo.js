@@ -7,9 +7,9 @@ function findWaldo(arr, found) {
   }
 }
 
-function actionWhenFound(i) {
+function actionWhenFound(index) {
   console.log("Found him!");
-  console.log("Found Waldo at index " + i + "!");
+  console.log("Found Waldo at index " + index + "!");
 }
 
 

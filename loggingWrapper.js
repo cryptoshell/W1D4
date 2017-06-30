@@ -3,8 +3,7 @@ var wrapLog = function (callback, name) {
   return function () {
   var args = [].slice.call(arguments);
   var args2 = args.slice(',').join(", ");
-  console.log(name + "(" + args2 + ")" + " => " + callback(arguments[0],
-                                                        arguments[1],arguments[2]));
+  console.log(name + "(" + args2 + ")" + " => " + callback(arguments[0],arguments[1],arguments[2]));
   }
 };
 
